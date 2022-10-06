@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rosybrown;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 70px;
+    
+
+}
+h1{
+font-style: bold;
+font-size: 40px;
+color:palegreen;
+display:block;
+margin-bottom: 10px;
+font-style: san-serif rgb(57, 36, 36);
+
+}
+.head{
+    
+
+}
+.box{
+    margin-top: 40px;
+    padding: 120px;
+    height: 305px;
+    display: grid;
+    grid-template-columns: 8rem;
+    align-content: center;
+    margin-right: 80px;
+
+
+}
+.form{
+line-height: 30px;
+flex-flow: nowrap;
+padding:0.1rem;
+
+    
+}
+lable{
+    font-size: 18px;
+    color:white;
+    text-shadow: 2px 3px palevioletred;
+
+}
+input{
+    padding:8px;
+    color:purple;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: rosybrown;
+    width: 350px;
+    margin-top: 5px;
+    box-shadow: 2px 3px white;
+    border-radius: 20px;
+}
+input:hover{
+    background-color:lightgoldenrodyellow;
+    transition-duration: 0s;
+}
+button {
+    margin-top: 30px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+button:hover{
+    background-color: palevioletred;
+    text-decoration: none;
+}
+.pass{
+    float: left;
+    padding-left: 250px;
+    text-decoration: none;
+    
+    
+}
+.pass:visited{
+    color:rgb(6, 42, 53);
+}
+.pass:hover{
+    color:blue;
+    text-decoration: underline;
+    
+}
